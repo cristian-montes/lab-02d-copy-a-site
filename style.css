@@ -1,121 +1,59 @@
-body {
-    padding-top: 40px;
-    background: #f5f7f8;
-  }
 
-  .home{
+/* BODY */
+body{
+    background-color:lightblue;
+}
+
+/* LOGO */
+#logo {
+    height: 40px;
+}
+/* TOP BAR */
+.top-bar{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+}
+
+.top-bar div{
+    margin-right: 10px;
+}
+
+/* HEADER */
+.header {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* NAVBAR */
+.nav-bar{
+    border: 1px solid purple;
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.nav-bar div{
+    margin-right: 10px;
+}
+
+/* HOT NEWS */
+.HotNews {
+    border:1px dotted red;
+    width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px ;
-  }
+    grid-template-columns: auto auto auto auto;
+   
+}
 
-  .pop-sentence{
-      width: 500px;
-      justify-content:center
-  }
-  
-  .grid-1 {
-    display: grid;
-    grid-template-columns: 850px 500px 500px;
-    grid-template-rows: auto auto auto;
-  }
-
-  .first-picture{
-      width: 800px;
-
-  }
-
-  .second-picture{
-      width: 400px;
-      height: 300px;
-  }
-  
-  .third-picture{
-    width: 400px;
-    height: 300px;
-  }
-
-
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: auto auto auto;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    font-weight: bold;
-    height: 21px;
-    line-height: 22px;
-    letter-spacing: 1.27px;
-    
-  }
-  
-  /* items */
- .logo{
-    width: 50px;
-    height: 50px;
-
-    margin-bottom: 50px;
-    padding:0;
- }
-  
-  
-  .grid-1 div {
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    margin: 10%;
-    }
-
-  .
-  
-  /* specific item styles */
-  
-  .item-1 {
-    
-  }
-  .item-2 {
-    
-  }
-  .item-3 {
-  
-  }
-  .item-4 {
-    background: #6a478f;
-  }
-  .item-5 {
-    background: #da6f2b;
-  }
-  .item-6 {
-    background: #3d8bb1;
-  }
-  .item-7 {
-    background: #e03f3f;
-  }
-  .item-8 {
-    background: #59a627;
-  }
-  .item-9 {
-    background: #4464a1;
-  }
-  
-  warn against lack of browser support 
-  
-  .nope {
-    display: block;
-    color: white;
-    background: orange;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  } 
-  
-  @supports (display: grid) {
-    .nope {
-      display: none;
-    } 
-  }*/
-  
-  
-  
+/* MAIN */
+.main{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
